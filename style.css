@@ -1,0 +1,758 @@
+
+
+
+
+/* start dark*/
+label{
+    
+    position: absolute;
+    width: 45px;
+    height: 22px;
+    right: 20px;
+    top: 20px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+label:before{
+    position: absolute;
+    content: '';
+    width:20px;
+    height: 20px;
+    left: 1px;
+    top: 1px;
+    border-radius: 50%;
+    background: #302744;
+    cursor: pointer;
+    transition: 0.4s;
+}
+label.active:before{
+    left: 24px;
+    background: #302744;
+}
+body.night{
+    background: #353f52;
+    color: #adc4c8;
+}
+
+/* end dark*/
+#back1{
+    background-color: #6594b5;
+}
+
+@media (max-width:750px) {
+    .container .row h1 {
+        margin-top: 50px;
+    }
+   
+    .container .collapse ul {
+        text-align: center;
+        background-color: rgba(100, 149, 237, .3);
+    }
+
+    .container .row .list-group li a {
+        text-decoration: none;
+        font-size: 10px;
+       
+        color: black;
+    }
+
+
+}
+
+.container ul {
+    margin-left: 20px;
+    margin: auto;
+
+}
+
+.container li {
+    margin-left: 20px;
+}
+
+.container ul {
+    
+    text-transform: capitalize;
+    position: fixed;
+    right: 0px;
+ 
+}
+
+.container li a {
+    
+    margin-top: 10px;
+}
+
+.container .row .oneh {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: rgb(31, 14, 95);
+    text-align: center;
+}
+
+.container .row h1 span {
+    color: rgb(140, 140, 181);
+}
+
+.container .row p {
+
+    text-transform: capitalize;
+    
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.container .row a {
+
+    margin: 30px;
+    font-size: 25px;
+}
+
+
+.container .row h3 {
+    
+    text-transform: capitalize;
+    font-style: italic;
+    text-align: center;
+}
+
+.container .row p {
+
+   
+    
+    text-transform: capitalize;
+    
+}
+
+.container .row .list-group {
+    padding: 50px;
+}
+
+.container .row .list-group li a {
+    text-decoration: none;
+    
+    color: black;
+}
+
+
+.container p {
+    font-size: 17px;
+    
+}
+
+.container .row h6 {
+    font-size: 20px;
+    
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#oneb {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 40%;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.btn a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.oc {
+    margin-top: 100px;
+    
+    padding: 5px;
+}
+
+.oc h4 {
+    
+    margin-top: 10px;
+}
+
+.oc h1 {
+    
+    margin-top: 20px;
+}
+
+.oc p {
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 15px;
+    
+}
+
+.container #or {
+    margin-top: 100px;
+}
+
+.row .he6 {
+    float: left;
+
+}
+
+#or img {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+#or p span {
+    
+    font-size: 25px;
+}
+
+.to p {
+    
+    font-size: 20px;
+    padding: 10px;
+    
+}
+
+.to .row img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.to .row h4 {
+    font-size: 18px;
+   
+    margin-top: 20px;
+}
+
+.to .row p {
+    font-size: 17px;
+    padding: 10px;
+
+}
+
+.fc {
+    margin-top: 80px;
+    padding: 10px;
+}
+
+.fc .row h4 {
+
+    font-size: 23px;
+    
+   
+   
+}
+
+.fc .row p {
+    font-size: 20px;
+   
+    padding: 10px;
+}
+
+
+.fc .row p a {
+    font-size: 20px;
+    text-decoration: underline;
+    
+}
+
+.fc .row img {
+    margin-top: 80px;
+}
+
+.sc {
+    margin-top: 80px;
+    padding: 10px;
+}
+
+
+
+.sc a {
+
+    text-decoration: none;
+    font-size: 30px;    
+}
+
+.sc .row img {
+    width: 100px;
+    height: 100px;
+}
+
+.sc .row h5 {
+    
+    margin-top: 20px;
+    
+}
+
+.ec {
+    
+    margin-top: 50px;
+    padding: 10px
+}
+
+.ec .row h4 {
+    
+    margin-top: 30px;
+}
+
+.ec .row h1 {
+    color: lavender;
+    margin-top: 15px;
+
+}
+
+.ec .row p {
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 20px;
+   
+}
+
+.ec .row .ec1 {
+    margin-top: 50px;
+    
+}
+
+.ec .row .ec1 h4 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+    
+}
+
+.ec .row .ec1 h6 {
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 0px;
+   
+}
+
+.ec .row .ec1 p {
+    padding: 10px;
+    margin-top: 15px;
+   
+}
+
+.ec .row .ec1 span {
+    color: white;
+}
+
+.c1 {
+
+    margin-top: 70px;
+    padding: 10px;
+   
+    ;
+
+}
+
+.c1 h4 {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.c1 h1 {
+    
+    margin-top: 20px;
+}
+
+.c1 p {
+    
+    font-size: 20px;
+   
+    margin-top: 20px;
+}
+
+.c1 .cr {
+    margin-top: 80px;
+}
+
+.c1 .cr h3 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-right: 10px;
+
+}
+
+.c1 .cr h3 img {
+    
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+}
+
+.c1 .cr .oi {
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.tc {
+    margin-top: 70px;
+}
+
+.tc h4 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.tc h1 {
+    
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.tc .row a {
+
+    font-size: 20px;
+   
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    
+}
+
+.tc .row a:hover {
+    
+    color: blanchedalmond;
+    
+    border-radius: 20px;
+}
+
+.tc .row .onehi {
+    display: none;
+}
+
+.ed {
+    margin-top: 70px;
+    background-color: rgba(57, 112, 214, 0.1);
+    ;
+}
+
+.ed h4 {
+    color: rgb(9, 9, 10);
+    font-size: 25px;
+    margin-top: 15px;
+    text-transform: capitalize;
+}
+
+.ed h1 {
+    
+    font-size: 60px;
+   
+    font-style: initial;
+    text-transform: capitalize;
+}
+
+.ed .row {
+    margin-top: 70px;
+}
+
+.ed .row h4 {
+    
+    font-size: 20px;
+
+}
+
+.ed .row p {
+    padding: 10px;
+    font-size: 17px;
+}
+
+.lastd {
+    margin-top: 70px;
+   
+
+}
+
+.lastd .row h1 {
+    font-size: 40px;
+    font-style: oblique;
+    color: white;
+    
+}
+
+
+.lastd .row p {
+    color: white;
+    font-size: 17px;
+    
+    margin-left: 10px;
+
+}
+
+.lastd .row a {
+    color: white;
+    margin: 10px;
+
+}
+
+.lastd .row h2 {
+    color: white;
+    font-size: 25px;
+    
+    font-style: initial;
+    margin-top: 15px;
+}
+
+.lastd .row ol {
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.lastd .row li a {
+    text-decoration: none;
+    
+    margin-top: 15px;
+    font-size: 15px;
+    background-color: rgb(33, 33, 53);
+    ;
+    border: none;
+}
+
+.lastd .row li {
+    margin: 30px;
+}
+
+.lastd .row .ono {
+    color: lavender;
+}
+
+.lastd .row .ono a {
+    
+    font-size: 15px;
+}
+
+.lastd .row .ont {
+    color: darkgray;
+}
+
+.lastd .row .ont a {
+   
+    font-size: 15px;
+}
+
+.lastd .row .lp {
+    color: white;
+}
+
+.lastd .container .lp .fas {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.back-to-up {
+    font-size: 35px;
+}
+
+.container #about .fasi {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    color: rgba(57, 112, 214, 0.2);
+    font-size: 100px;
+}
+
+.container #about .fasii {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    
+    
+
+}
+
+.container #about .fasiii {
+    position: absolute;
+    bottom: 50px;
+    left: 550px;
+    
+    
+
+}
+
+#treatment .container .fasi {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    
+}
+
+#treatment .container .fasii {
+    position: absolute;
+    right: 200px;
+    
+    top: 50px;
+}
+
+#treatment .container .fasiii {
+    position: absolute;
+    left: 500px;
+    top: 200px;
+    color: rgba(255, 255, 255, .5);
+    font-size: 100px;
+}
+
+
+/*scroll*/
+
+  #btn2 {
+  
+    background: #5a749d;
+    position: fixed;
+    bottom: 16px;
+    right:32px;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    color:#f0ebeb;
+}
+
+/*footer*/
+
+.footer {
+    background-color:  #648297;
+  }
+  
+  .footer__container {
+    display: grid;
+    gap: 4rem 2rem;
+  }
+  
+  .footer__col .section__description {
+    margin-block: 2rem;
+  }
+  
+  .footer__col h4 {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--white);
+  }
+  
+  .footer__links {
+    list-style: none;
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .footer__links a {
+    color: #e6ebee;
+    transition: 0.3s;
+  }
+  
+  .footer__links a:hover {
+    color: #576872;
+  }
+  
+  .footer__socials {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .footer__socials img {
+    max-width: 25px;
+    opacity: 0.8;
+    transition: 0.3s;
+  }
+  
+  .footer__socials img:hover {
+    opacity: 1;
+  }
+  
+  .footer__bar {
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: var(--text-light);
+    text-align: center;
+  }
+  
+  @media (width > 576px) {
+    .room__grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .footer__container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (width > 768px) {
+    nav {
+      padding: 2rem 1rem;
+      position: static;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .nav__bar {
+      padding: 0;
+      background-color: transparent;
+    }
+  
+    .nav__menu__btn {
+      display: none;
+    }
+  
+    .nav__links {
+      padding: 0;
+      width: unset;
+      position: static;
+      transform: none;
+      flex-direction: row;
+      background-color: transparent;
+    }
+  
+    .nav__btn {
+      display: block;
+    }
+  
+    .nav__links a::after {
+      position: absolute;
+      content: "";
+      left: 0;
+      bottom: 0;
+      height: 2px;
+      width: 0;
+      background-color: #e6ebee;
+      transition: 0.3s;
+      transform-origin: left;
+    }
+  
+    .nav__links a:hover::after {
+      width: 100%;
+    }
+  
+    .about__container {
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+    }
+  
+    .room__grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  
+    .service__content {
+      grid-column: 2/3;
+    }
+  
+    .footer__container {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  @media (width > 1024px) {
+    .room__grid {
+      gap: 2rem;
+    }
+  }
+
+  /*end footer*/
+  
